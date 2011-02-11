@@ -1,0 +1,40 @@
+- a swarm has an active property indicating if it is presently active on the current level
+- a swarm has a render() method that draws itself
+- a swarm has a move() method that handles AI of its members
+
+Planning:
+
+- LevelManager holds all game entities:
+
+  -  dumb swarms, can be bound to different textures
+  -  multi-swarm, particles can multiply, creating new entities within the swarm
+  -  Chasers, "strings" of particles that home in quickly on the player
+  -  powerups
+     - increased shot size
+     - dispersed shots
+     - faster shot speed
+     - reverse shots
+  -  particle/explosion renderers, 1 per type of explosion
+
+- Collision groups:
+
+  0 Ship (player)
+  1 Ship bullets
+  2 Enemies
+  3 Enemy bullets
+  4 Static items
+
+  Check:
+
+  0 : 2 -> reduce player health
+  0 : 3 -> reduce player health
+  1 : 3 -> destroy enemies
+  1 : 4 -> modify game (powerups etc.) - compare bounding circles only!
+
+
+Tasks:
+ - 2 new swarms, the string chaser
+ - Powerups
+ - Graphics
+ - Music
+ - Life system 

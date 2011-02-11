@@ -1,0 +1,24 @@
+Return to Zero
+... .  .   . .
+
+(Source released 10 Feb 2011)
+
+A game entry for the Nullarbor 2007 games competition.  Edit config.lua to change
+your screen resolution (if you want), and run bin\null.exe to start playing.
+
+Controls
+--------
+Dual analog gamepad works best, use the left stick to move and the right stick to aim.
+Keyboard controls are WASD to move, IJKL to aim.
+
+Gameplay
+--------
+Shoot the shapes, pick up the powerups and try not to die!
+ 
+Credits
+-------
+Programming & spinning plates          -    Dan V.     (dan@expandingbrain.com)
+Extra graphics programming & effects   -    Estelle W. (estelle@expandingbrain.com)
+Music & extra sound effects            -    Jarren B.  (jarren@expandingbrain.com)
+
+!!!
